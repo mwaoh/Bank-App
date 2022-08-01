@@ -14,6 +14,27 @@
         android:theme="@style/Theme.Rakyat"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityVerification"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTransaction"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFingerPrint"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySignIn"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySignUp"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

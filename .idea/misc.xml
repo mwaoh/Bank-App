@@ -3,7 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/fragment_main.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/bg_gradient_very_soft.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/btn_rounded_green_300.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/edit_text_round_bg_white.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/fingerprint.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/ic_arrow_downward.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/ic_close.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/ic_expand_arrow.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/logo_small.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/drawable/shape_circle.xml" value="0.1945" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_account.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_finger_print.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_forget_password.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_sign_in.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_transaction.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/activity_verification.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/fragment_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/item_transaction.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/sign_up.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Rakyat/app/src/main/res/layout/toolbar.xml" value="0.1" />
       </map>
     </option>
   </component>

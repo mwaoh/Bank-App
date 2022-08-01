@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_large" />
+    <dimen name="spacing_middle" />
+    <dimen name="spacing_xlarge" />
+    <dimen name="spacing_medium" />
+    <dimen name="spacing_mlarge" />
+    <dimen name="spacing_mxlarge" />
+    <dimen name="spacing_xmlarge" />
+    <dimen name="spacing_small" />
+    <dimen name="spacing_xsmall" />
+</resources>

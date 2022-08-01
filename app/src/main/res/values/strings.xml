@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Rakyat</string>
+    <string name="select_daily_limit">Select Daily Limit</string>
+    <string name="leave_passwords_blank_if_you_still_want_to_use_the_old_password">Leave Passwords blank if you still want to use the old Password</string>
+    <string name="_60">+60</string>
+    <string name="mainfragment">MainFragment</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="place_your_finger_on_the_sensor">Place Your finger on the sensor</string>
+    <string name="request_password">Request Password</string>
+    <string name="email">Email</string>
+    <string name="insert_email_to_continue">Insert Email to continue</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="password">PASSWORD</string>
+    <string name="s_i_g_n_i_n">S I G N I N</string>
+    <string name="sign_up_for_an_account">SIGN UP FOR AN ACCOUNT?</string>
+    <string name="forgot_password1">Forgot Password?</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="your_transaction_was_successful">Your transaction was successful</string>
+    <string name="request_otp">Request Otp</string>
+    <string name="verify">VERIFY</string>
+    <string name="username">Username</string>
 </resources>
