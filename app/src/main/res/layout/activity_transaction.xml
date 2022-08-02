@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white">
@@ -42,7 +41,7 @@
                             android:gravity="center_vertical"
                             android:text="@string/thank_you"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/colorprimary"
                             android:textStyle="bold" />
 
                         <TextView
@@ -68,7 +67,8 @@
                             android:visibility="gone"
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
-                            android:padding="@dimen/spacing_middle">
+                            android:padding="@dimen/spacing_middle"
+                            android:baselineAligned="false">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -80,7 +80,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="TO"
+                                    android:text="@string/to"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -89,7 +89,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="David Mwangi"
+                                    android:text="@string/joseph_mwaura"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -120,7 +120,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Company"
+                                    android:text="@string/company"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -129,7 +129,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Tesla"
+                                    android:text="@string/tesla"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -161,7 +161,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Bank"
+                                    android:text="@string/bank"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -170,7 +170,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="KCB"
+                                    android:text="@string/kcb"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -202,7 +202,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="AccountNumber"
+                                    android:text="@string/accountnumber"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -211,7 +211,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="25615"
+                                    android:text="@string/_25615"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -244,7 +244,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Reference Note"
+                                    android:text="@string/reference_note"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -253,7 +253,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Food"
+                                    android:text="@string/food"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -282,7 +282,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="AMOUNT"
+                                    android:text="@string/amount"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:textColor="@color/grey_40" />
 
@@ -291,7 +291,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="£1548.0"
+                                    android:text="@string/_1548_0"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                                     android:textColor="@color/grey_80"
                                     android:textStyle="bold" />
@@ -302,7 +302,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center_vertical"
-                                android:text="COMPLETED"
+                                android:text="@string/completed"
                                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                                 android:textColor="@color/grey_40" />
 
