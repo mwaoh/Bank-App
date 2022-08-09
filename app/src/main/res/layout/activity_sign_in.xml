@@ -18,11 +18,12 @@
                 android:layout_height="@dimen/spacing_middle" />
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/logo_small"
-                app:tint="@color/red_800" />
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/logo1"
+                android:src="@drawable/logo" />
 
             <View
                 android:layout_width="0dp"

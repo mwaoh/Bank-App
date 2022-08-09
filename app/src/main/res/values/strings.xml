@@ -28,9 +28,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="s_i_g_n_u_p">S I G N U P</string>
     <string name="already_have_an_account_login">ALREADY HAVE AN ACCOUNT Login?</string>
-    <string name="which_is_your_favourite_football_team">Which is your favourite football Team?</string>
-    <string name="which_city_did_you_grow_up_in">Which City did you grow Up in</string>
-    <string name="what_was_your_child_hood_nick_name">What was your Child Hood Nick Name</string>
     <string name="_010257308">010257308</string>
     <string name="to">TO</string>
     <string name="joseph_mwaura">Joseph Mwaura</string>
@@ -55,4 +52,8 @@
     <string name="otp_has_been_sent_to_you_on_your_mobile_phone_please_enter_it_below">OTP has been sent to you on your mobile phone. Please enter it below</string>
     <string name="or_verify_via_fingerprint_below">Or Verify via Fingerprint Below</string>
     <string name="enter_otp">Enter OTP</string>
+    <string name="what_is_the_name_of_the_primary_school_you_went_to">what is the name of the primary school you went to</string>
+    <string name="what_is_the_name_of_the_high_school_you_went_to">what is the name of the high school you went to</string>
+    <string name="what_is_the_name_of_the_university_you_went_to">what is the name of the university you went to</string>
+    <string name="logo1">logo1</string>
 </resources>

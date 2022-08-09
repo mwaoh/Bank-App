@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155650683696",
+    "project_id": "bank-app-4cc65",
+    "storage_bucket": "bank-app-4cc65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155650683696:android:9d1de98e5294dab0a14ef5",
+        "android_client_info": {
+          "package_name": "com.example.rakyat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155650683696-8sku951vdg433270hi01mg7c57vj36e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMlQrv0FpCZuWONG3kGIbrt4BbD7QWi00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155650683696-8sku951vdg433270hi01mg7c57vj36e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
