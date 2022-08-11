@@ -3,6 +3,8 @@
     <string name="select_daily_limit">Select Daily Limit</string>
     <string name="leave_passwords_blank_if_you_still_want_to_use_the_old_password">Leave Passwords blank if you still want to use the old Password</string>
     <string name="_60">+60</string>
+    <string name="_254">+254</string>
+    <string name="_0712345678">0712345678</string>
     <string name="mainfragment">MainFragment</string>
     <string name="verification">VERIFICATION</string>
     <string name="place_your_finger_on_the_sensor">Place Your finger on the sensor</string>

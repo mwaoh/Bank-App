@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,39 +18,16 @@
                 android:layout_centerInParent="true"
                 android:orientation="vertical"
                 android:padding="@dimen/spacing_large">
-                <!--
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center_horizontal"
-                                    android:layout_marginTop="@dimen/spacing_medium"
-                                    android:text="@string/welcome_i_rakyat"
-                                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                                    android:textColor="@color/red_800"
-                                    android:textStyle="bold" />
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center_horizontal"
-                                    android:layout_marginTop="@dimen/spacing_medium"
-                                    android:text="@string/sign_in_to_continue"
-                                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                    android:textColor="@color/blue_grey_300" />
-                -->
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="5dp"
                     android:contentDescription="@string/logo1"
                     android:src="@drawable/logo" />
 
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1" />
-
-                <TextView
+               <!-- <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/username"
@@ -58,7 +36,7 @@
                     android:textColor="#757575" />
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/sign_in_username"
+                    android:id="@+id/sign_up_for_a_account"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="-4dp"
@@ -66,10 +44,10 @@
                     android:inputType="text"
                     android:maxLength="50"
                     android:maxLines="1"
-                    android:minHeight="48dp"
+                    android:minHeight="45dp"
                     android:singleLine="true"
                     android:textColor="@color/blue_grey_800"
-                    android:theme="@style/EditText.Green" />
+                    android:theme="@style/EditText.Green" />-->
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,7 +59,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
-                    android:id="@+id/sign_in_email"
+                    android:id="@+id/signupemail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="-4dp"
@@ -96,7 +74,7 @@
                 <View
                     android:layout_width="0dp"
                     android:layout_height="@dimen/spacing_xsmall" />
-
+<!--
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -104,7 +82,8 @@
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                     android:textColor="@color/blue_grey_200" />
-
+-->
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -115,14 +94,11 @@
                         style="@style/EditText.Flat.Grey"
                         android:layout_width="50dp"
                         android:layout_height="45dp"
-
                         android:layout_marginTop="@dimen/spacing_large"
                         android:autofillHints=""
                         android:background="@drawable/edit_text_round_bg_white"
-
-
                         android:focusable="false"
-                        android:hint="@string/_60"
+                        android:hint="@string/_254"
                         android:inputType="phone"
                         android:paddingLeft="@dimen/spacing_middle"
                         android:paddingRight="@dimen/spacing_middle" />
@@ -135,7 +111,7 @@
                         android:layout_marginTop="@dimen/spacing_large"
                         android:autofillHints=""
                         android:background="@drawable/edit_text_round_bg_white"
-                        android:hint="@string/_010257308"
+                        android:hint="@string/_0712345678"
                         android:inputType="phone"
                         android:paddingLeft="@dimen/spacing_middle"
                         android:paddingRight="@dimen/spacing_middle" />
@@ -148,11 +124,11 @@
 
                 </LinearLayout>
 
-
+-->
                 <View
                     android:layout_width="0dp"
                     android:layout_height="@dimen/spacing_medium" />
-
+<!--
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -253,7 +229,7 @@
                     android:singleLine="true"
                     android:textColor="@color/blue_grey_800"
                     android:theme="@style/EditText.Green" />
-
+-->
                 <View
                     android:layout_width="0dp"
                     android:layout_height="@dimen/spacing_medium" />
@@ -310,17 +286,18 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/spacing_medium" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/sign_in_button"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:layout_marginLeft="-4dp"
                     android:layout_marginRight="-4dp"
+                    android:textColor="@color/red_800"
                     android:background="@drawable/btn_rounded_green_300"
                     android:text="@string/s_i_g_n_u_p"
                     android:textAllCaps="false"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="MissingClass" />
 
                 <View
                     android:layout_width="0dp"
@@ -361,7 +338,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/forgotPass"
+                        android:id="@+id/forgotPassword"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/forgot_password"
